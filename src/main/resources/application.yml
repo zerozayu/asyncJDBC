@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+#  tomcat:
+#    max-connections: 1000
+#spring:
+#  jpa:
+#    database: oracle
+#  datasource:
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    url: jdbc:oracle:thin:@localhost:1521:XE
+#    username: zhangyu
+#    password: 123456
+#    hikari:
+#      maximum-pool-size: 100
+#logging:
+#  file:
+#    path: C:\Users\30430\Desktop\
+#    name: ${logging.file.path}\a.log
+db:
+  url: 'jdbc:oracle:thin:@//127.0.0.1:1521/XE'
+  name: 'zhangyu'
+  passwd: '123456'

@@ -34,7 +34,7 @@ import java.util.stream.Stream;
 @Slf4j
 public class EmployeeServiceImpl implements EmployeeService {
 
-    DatabaseInstance instance;
+    private final DatabaseInstance instance;
 
     public EmployeeServiceImpl(DatabaseInstance instance) {
         this.instance = instance;
